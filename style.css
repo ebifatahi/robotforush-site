@@ -103,3 +103,8 @@ th{background:var(--bg)}
 .grow th{background:var(--navy);color:#fff;text-align:start;padding:8px 14px}
 .hero .hint{font-size:.9rem;color:#9fb4d8;margin:0 0 16px}
 .hint a{color:#9fe0ff}
+.article{max-width:760px;margin-inline:auto}
+.article>*{max-width:none}
+.art-title{font-size:clamp(1.7rem,5vw,2.4rem);line-height:1.5;margin-bottom:16px}
+.article h2{margin:28px 0 8px}
+.article ul,.article ol{padding-inline-start:1.4em;display:grid;gap:4px;margin:8px 0}
