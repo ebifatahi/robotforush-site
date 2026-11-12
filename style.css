@@ -102,3 +102,4 @@ th{background:var(--bg)}
 @media (max-width:820px){.trust{grid-template-columns:1fr}}
 .grow th{background:var(--navy);color:#fff;text-align:start;padding:8px 14px}
 .hero .hint{font-size:.9rem;color:#9fb4d8;margin:0 0 16px}
+.hint a{color:#9fe0ff}
