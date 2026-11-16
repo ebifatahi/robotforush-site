@@ -131,3 +131,6 @@ footer a{color:#c4d3ee}
 @keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
 @supports (animation-timeline:view()){.bento article,.steps li,.grp,.plan,.vs>div{animation:rise linear backwards;animation-timeline:view();animation-range:entry 0% entry 35%}}
 @media (prefers-reduced-motion:reduce){.bento article,.steps li,.grp,.plan,.vs>div{animation:none}}
+.cl{list-style:none;padding:0!important;display:grid;gap:10px;margin:10px 0}
+.cl li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
+.cl a{color:var(--navy2);font-weight:700;text-decoration:none;word-break:break-all}
