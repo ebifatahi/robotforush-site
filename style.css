@@ -141,3 +141,7 @@ footer a{color:#c4d3ee}
 .demo{display:flex;gap:12px;flex-wrap:wrap}
 .prod p{color:var(--mute);flex:1}
 .d6{animation-delay:6.8s}.d7{animation-delay:8.2s}
+.gfig{margin:20px auto;max-width:380px;text-align:center}
+.gfig img{width:100%;height:auto;display:block;border-radius:16px;border:1px solid var(--line)}
+.gfig figcaption{font-size:.92rem;color:var(--mute);margin-top:6px}
+code{background:var(--bg);padding:1px 8px;border-radius:8px;font-size:.9rem;word-break:break-all}

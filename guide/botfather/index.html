@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>آموزش ساخت ربات تلگرام با BotFather و دریافت توکن | روبات‌فروش</title>
+<meta name="description" content="آموزش قدم‌به‌قدم و تصویری ساخت ربات تلگرام با BotFather: انتخاب اسم و آیدی، دریافت توکن و نگهداری امن آن. بدون برنامه‌نویسی.">
+<link rel="canonical" href="https://robotforush.ir/guide/botfather/">
+<link rel="stylesheet" href="/style.css?v=10">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/"><i>🤖</i> روبات‌فروش</a>
+  <input type="checkbox" id="mn" class="mn-t"><label for="mn" class="mn-b" aria-label="منو">☰</label>
+  <nav class="mn"><a href="/">صفحه‌ی اصلی</a><a href="/#features">امکانات</a><a href="/#plans">پلن‌ها</a><a href="/booking/">ربات نوبت‌دهی</a><a href="/guide/">راهنما</a><a href="/about/">درباره ما</a><a href="/contact/">تماس</a></nav>
+  <a class="btn sm" href="tg://resolve?domain=ebiefgh62">شروع کن</a>
+</header>
+<main>
+<article class="block article">
+<h1 class="art-title">آموزش ساخت ربات تلگرام با BotFather؛ قدم‌به‌قدم و بدون برنامه‌نویسی</h1>
+<p>برای راه‌اندازی ربات فروشگاهی یا نوبت‌دهی، اول باید یک «ربات خالی» بسازی. این کار داخل تلگرام انجام می‌شود، مثل چت کردن است و لازم نیست برنامه‌نویسی بلد باشی. فقط ۶ قدم ساده دارد.</p>
+<h2>قدم‌ها</h2>
+<ol class="steps">
+<li><b>۱</b><div><h3>BotFather را باز کن و /newbot را بفرست</h3><p>در تلگرام «BotFather» را جستجو کن (ربات رسمی تلگرام با تیک آبی)، Start را بزن و این دستور را بفرست: <code dir="ltr">/newbot</code>. این شروع ساختن ربات است.</p></div></li>
+<li><b>۲</b><div><h3>یک اسم برای ربات انتخاب کن</h3><p>BotFather می‌پرسد «اسم ربات را چه بگذاریم؟». یک اسم فارسی یا انگلیسی بنویس، مثل «فروشگاه اینترنتی نمونه». مشتری‌ها همین اسم را می‌بینند.</p></div></li>
+<li><b>۳</b><div><h3>یک آیدی (Username) انتخاب کن</h3><p>حالا یک آیدی انگلیسی می‌خواهد که <b>حتماً</b> با کلمه‌ی <span dir="ltr">bot</span> تمام شود، مثل <code dir="ltr">my_shop_bot</code>. فقط حروف انگلیسی، عدد و _ مجاز است.</p></div></li>
+</ol>
+<figure class="gfig"><img src="/images/botfather-1.webp" alt="مراحل شروع ساخت ربات در BotFather: دستور newbot، انتخاب اسم و آیدی" loading="lazy" decoding="async"><figcaption>شروع ساخت ربات: دستور، اسم و آیدی</figcaption></figure>
+<ol class="steps">
+<li><b>۴</b><div><h3>اگر آیدی گرفته شده بود، یکی دیگر بنویس</h3><p>اگر پیام «این آیدی قبلاً گرفته شده» آمد، نگران نشو. آیدی دیگری بنویس، مثلاً یک عدد به آن اضافه کن: <code dir="ltr">my_shop5_bot</code>.</p></div></li>
+<li><b>۵</b><div><h3>ربات ساخته شد</h3><p>BotFather تأیید می‌کند و لینک ربات تو را می‌دهد. از همین‌جا می‌توانی عکس، توضیحات و تنظیمات ربات را عوض کنی.</p></div></li>
+<li><b>۶</b><div><h3>توکن را بگیر و جای امن ذخیره کن</h3><p>پایین پیام یک کد طولانی می‌دهد. این «توکن» است و مثل رمز عبور ربات. شکلش این‌طور است: <code dir="ltr">123456789:AAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</code> (این مثال ساختگی است). آن را کپی کن و جای مطمئنی نگه دار.</p></div></li>
+</ol>
+<figure class="gfig"><img src="/images/botfather-2.webp" alt="پیام ساخت موفق ربات و دریافت توکن در BotFather" loading="lazy" decoding="async"><figcaption>ساخت موفق ربات و دریافت توکن (توکن در تصویر پوشانده شده است)</figcaption></figure>
+<div class="limits"><h2>توکن مثل رمز عبور است</h2><ul>
+<li>هر کسی توکن را داشته باشد، می‌تواند ربات تو را کنترل کند.</li>
+<li>توکن را فقط داخل ربات مادر روبات‌فروش وارد کن، نه جای دیگر.</li>
+<li>عکس توکن را در گروه، کانال یا شبکه‌های اجتماعی نگذار.</li>
+<li>اگر جایی لو رفت، در BotFather دستور <code dir="ltr">/revoke</code> را بفرست تا توکن جدید بگیری و کد قبلی بی‌اثر شود.</li>
+</ul></div>
+<h2>بعد از ساخت ربات چه کنم؟</h2>
+<p>توکن ربات را در ربات مادر وارد می‌کنی و ربات آماده‌ی تنظیم می‌شود. <a href="/booking/">ربات نوبت‌دهی را ببین</a> یا <a href="/#plans">پلن‌های ربات فروشگاهی را ببین</a>.</p>
+<h2>سوالات رایج</h2>
+<details><summary>ساخت ربات در BotFather هزینه دارد؟</summary><p>نه، ساختن ربات خالی در BotFather رایگان است.</p></details>
+<details><summary>توکن را گم کردم، چه کنم؟</summary><p>در BotFather دستور <span dir="ltr">/mybots</span> را بزن، ربات را انتخاب کن و روی «API Token» بزن.</p></details>
+<details><summary>برای ساخت ربات در بله چه کنم؟</summary><p>این آموزش مخصوص تلگرام است. برای بله در تلگرام یا بله به ما پیام بده تا راهنمایی کنیم.</p></details>
+<p><a class="btn" href="tg://resolve?domain=ebiefgh62">گیر کردی؟ پیام بده</a> <a class="btn dark" href="/booking/">ربات نوبت‌دهی</a></p>
+</article>
+</main>
+<footer><a href="/guide/">راهنما</a> · <a href="/booking/">ربات نوبت‌دهی</a> · <a href="/about/">درباره ما</a> · <a href="/contact/">تماس</a> · <a href="tg://resolve?domain=robotforush">کانال تلگرام</a> · <a href="/terms/">قوانین</a> · <a href="/privacy/">حریم خصوصی</a><br>© روبات‌فروش · robotforush.ir</footer>
+</body>
+</html>
