@@ -134,3 +134,8 @@ footer a{color:#c4d3ee}
 .cl{list-style:none;padding:0!important;display:grid;gap:10px;margin:10px 0}
 .cl li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center}
 .cl a{color:var(--navy2);font-weight:700;text-decoration:none;word-break:break-all}
+.price{flex-wrap:wrap}
+.limits{background:var(--card);border:2px dashed var(--line);border-radius:20px;padding:26px}
+.limits h2{margin-bottom:12px}
+.limits ul{padding-inline-start:1.2em;display:grid;gap:8px;color:var(--mute)}
+.demo{display:flex;gap:12px;flex-wrap:wrap}
