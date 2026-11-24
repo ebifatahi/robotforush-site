@@ -139,3 +139,4 @@ footer a{color:#c4d3ee}
 .limits h2{margin-bottom:12px}
 .limits ul{padding-inline-start:1.2em;display:grid;gap:8px;color:var(--mute)}
 .demo{display:flex;gap:12px;flex-wrap:wrap}
+.prod p{color:var(--mute);flex:1}
